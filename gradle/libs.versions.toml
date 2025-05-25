@@ -1,0 +1,17 @@
+[versions]
+agp = "8.9.1"
+kotlin = "2.0.21"
+compose = "1.8.2"
+compose-activity = "1.10.1"
+
+[libraries]
+compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
