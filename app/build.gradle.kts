@@ -14,14 +14,14 @@ fun getLocalProperty(key: String): String {
 
 android {
     namespace = "cn.ommiao.aicygo"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "cn.ommiao.aicygo"
-        minSdk = 35
-        targetSdk = 35
+        minSdk = 36
+        targetSdk = 36
         versionCode = 1
-        versionName = "1.0"
+        versionName = "flyme-12.6.0.0A"
         base.archivesName = "Aicy_Go_${versionCode}_$versionName"
     }
 
