@@ -19,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ShortcutDispatchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AicyGo.Transparent"
+            android:excludeFromRecents="true"
+            android:taskAffinity="" />
     </application>
 
 </manifest>

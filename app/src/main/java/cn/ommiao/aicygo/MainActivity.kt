@@ -77,11 +77,8 @@ class MainActivity : ComponentActivity() {
                         ) { pageIndex ->
                             when (pageIndex + 1) {
                                 1 -> {
-                                    Page1 { mode ->
-                                        AicyGoShortcutHelper.addHomeScreenShortcut(
-                                            context = this@MainActivity,
-                                            mode = mode
-                                        )
+                                    Page1 {
+                                        AicyGoShortcutHelper.addHomeScreenShortcut(this@MainActivity)
                                     }
                                 }
 

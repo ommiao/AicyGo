@@ -11,14 +11,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import cn.ommiao.aicygo.AicyGoShortcutHelper.LaunchMode
 import cn.ommiao.aicygo.LocalPrimaryColor
 import cn.ommiao.aicygo.R
 import cn.ommiao.library.theme.Appearance
 import cn.ommiao.library.theme.foundation.Spacer
 
 @Composable
-fun Page1(modifier: Modifier = Modifier, onAddShortcutClick: (LaunchMode) -> Unit) {
+fun Page1(modifier: Modifier = Modifier, onAddShortcutClick: () -> Unit) {
     PageScaffold(
         modifier = modifier,
         illustration = {
@@ -39,12 +38,8 @@ fun Page1(modifier: Modifier = Modifier, onAddShortcutClick: (LaunchMode) -> Uni
             )
             Appearance.spacing.large.Spacer()
             NakedButton(
-                text = stringResource(R.string.btn_add_voice_shortcut)
-            ) { onAddShortcutClick(LaunchMode.VOICE) }
-            Appearance.spacing.medium.Spacer()
-            NakedButton(
-                text = stringResource(R.string.btn_add_ai_search_shortcut)
-            ) { onAddShortcutClick(LaunchMode.AI_SEARCH) }
+                text = stringResource(R.string.btn_add_shortcut)
+            ) { onAddShortcutClick() }
         }
     )
 }

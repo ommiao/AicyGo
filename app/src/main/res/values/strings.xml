@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">Aicy Go</string>
-    <string name="app_slogan">Aicy Go - 手势呼出 Aicy 方案</string>
+    <string name="app_slogan">Aicy Go - 手势呼出 Aicy 识屏</string>
     <string name="title_add_launcher_shortcut">添加桌面快捷方式</string>
-    <string name="desc_add_launcher_shortcut">根据个人需要，添加语音输入或键盘输入的 Aicy 桌面快捷方式，当然也可以两个都添加。语音输入版的效果同长按电源键呼出 Aicy，键盘输入版的效果同桌面点击 Aicy 键。</string>
-    <string name="btn_add_voice_shortcut">添加语音输入版 - Voice</string>
-    <string name="btn_add_ai_search_shortcut">添加键盘输入版 - Ai Search</string>
+    <string name="desc_add_launcher_shortcut">添加 Aicy 桌面快捷方式。</string>
+    <string name="btn_add_shortcut">添加快捷方式</string>
     <string name="title_edit_gesture_menu">编辑手势呼出菜单</string>
     <string name="desc_edit_gesture_menu">通过手势呼出菜单，点击更多，再点击管理进入编辑模式，在“功能”选项中将桌面快捷方式添加到手势呼出菜单中，记得长按拖动将其放在合适的位置，位置在第六位之后的应用不会在手势菜单中直接展示。</string>
     <string name="title_hide_launcher_shortcut">隐藏桌面快捷方式</string>
